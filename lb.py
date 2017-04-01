@@ -4,7 +4,7 @@ import datetime
 
 # connect to database
 try:
-	db = MySQLdb.connect(host="localhost", user="root", passwd="123456", db="MONITOR")
+	db = MySQLdb.connect(host="192.168.229.1", user="root", passwd="", db="MONITOR")
 except Exception, e:
 	print "Can't connect to database"
 
