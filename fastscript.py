@@ -15,7 +15,7 @@ from itertools import groupby
 
 # Connect to database
 try:
-	db = MySQLdb.connect(host="192.168.229.1", user="root", passwd="", db="MONITOR") #, cursorclass=MySQLdb.cursors.SSCursor)
+	db = MySQLdb.connect(host="192.168.229.1", user="minhtam", passwd="123456", db="MONITOR") #, cursorclass=MySQLdb.cursors.SSCursor)
 except Exception, e:
 	print "Can't connect to database"
 

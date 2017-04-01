@@ -6,7 +6,7 @@ import logging
 # Connect to database
 try:
 	global db
-	db = MySQLdb.connect(host="192.168.229.1", user="root", passwd="", db="MONITOR")
+	db = MySQLdb.connect(host="192.168.229.1", user="minhtam", passwd="123456", db="MONITOR")
 except Exception, e:
 	print 1, repr(2)
 	print "Khong the ket noi DB"
